@@ -1,0 +1,40 @@
+# Laravel/Lumen
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/.env
+/.env.*.local
+/.idea
+/.vscode
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env.local
+.env.production
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+storage/logs/*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite
+*.sql
+/database/database.sqlite
+
+# Backup
+backup/
+*.backup
+
+# Runtime
+/.fleet
+/.nova
